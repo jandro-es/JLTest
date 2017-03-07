@@ -11,7 +11,6 @@
 		B161E18A1E6F26CB00692820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1891E6F26CB00692820 /* AppDelegate.swift */; };
 		B161E1911E6F26CB00692820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B161E1901E6F26CB00692820 /* Assets.xcassets */; };
 		B161E1941E6F26CB00692820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B161E1921E6F26CB00692820 /* LaunchScreen.storyboard */; };
-		B161E19F1E6F26CB00692820 /* JLTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E19E1E6F26CB00692820 /* JLTestTests.swift */; };
 		B161E1B31E6F296400692820 /* ProductsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B161E1B21E6F296400692820 /* ProductsStoryboard.storyboard */; };
 		B161E1B51E6F29A200692820 /* ProductGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1B41E6F29A200692820 /* ProductGridViewController.swift */; };
 		B161E1B71E6F2BC900692820 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1B61E6F2BC900692820 /* MainCoordinator.swift */; };
@@ -23,6 +22,11 @@
 		B161E1C61E6F2EB600692820 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1C51E6F2EB600692820 /* NavigationController.swift */; };
 		B161E1C81E6F2ED800692820 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1C71E6F2ED800692820 /* NavigationBar.swift */; };
 		B161E1CB1E6F31A100692820 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B161E1CA1E6F31A100692820 /* GoogleService-Info.plist */; };
+		B161E1CD1E6F328000692820 /* ProductGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1CC1E6F328000692820 /* ProductGrid.swift */; };
+		B161E1D01E6F32A900692820 /* JsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1CF1E6F32A900692820 /* JsonObject.swift */; };
+		B161E1D31E6F37D400692820 /* ProductGridRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1D21E6F37D400692820 /* ProductGridRouter.swift */; };
+		B161E1D51E6F395300692820 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1D41E6F395300692820 /* Config.swift */; };
+		B161E1D91E6F3A2F00692820 /* ProductGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1D81E6F3A2F00692820 /* ProductGridTests.swift */; };
 		BF6C5C5F7B2E98B941ACD100 /* Pods_JLTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53A90FA43A548EE6D974C0B /* Pods_JLTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +51,6 @@
 		B161E1931E6F26CB00692820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B161E1951E6F26CB00692820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B161E19A1E6F26CB00692820 /* JLTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B161E19E1E6F26CB00692820 /* JLTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLTestTests.swift; sourceTree = "<group>"; };
 		B161E1A01E6F26CB00692820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B161E1B21E6F296400692820 /* ProductsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ProductsStoryboard.storyboard; path = Views/ProductsStoryboard.storyboard; sourceTree = "<group>"; };
 		B161E1B41E6F29A200692820 /* ProductGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductGridViewController.swift; path = ViewControlers/ProductGridViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +63,12 @@
 		B161E1C51E6F2EB600692820 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = Extensions/components/NavigationController.swift; sourceTree = "<group>"; };
 		B161E1C71E6F2ED800692820 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationBar.swift; path = Extensions/components/NavigationBar.swift; sourceTree = "<group>"; };
 		B161E1CA1E6F31A100692820 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Resources/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B161E1CC1E6F328000692820 /* ProductGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductGrid.swift; path = Models/ProductGrid.swift; sourceTree = "<group>"; };
+		B161E1CF1E6F32A900692820 /* JsonObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JsonObject.swift; path = Protocols/JsonObject.swift; sourceTree = "<group>"; };
+		B161E1D21E6F37D400692820 /* ProductGridRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductGridRouter.swift; path = Services/Routers/ProductGridRouter.swift; sourceTree = "<group>"; };
+		B161E1D41E6F395300692820 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Resources/Config.swift; sourceTree = "<group>"; };
+		B161E1D71E6F3A2F00692820 /* JLTestTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JLTestTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		B161E1D81E6F3A2F00692820 /* ProductGridTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductGridTests.swift; path = Models/ProductGridTests.swift; sourceTree = "<group>"; };
 		B572B1F8B31546544CBC8DB5 /* Pods-JLTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLTestTests/Pods-JLTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		C53A90FA43A548EE6D974C0B /* Pods_JLTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -133,7 +142,7 @@
 		B161E19D1E6F26CB00692820 /* JLTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				B161E19E1E6F26CB00692820 /* JLTestTests.swift */,
+				B161E1D61E6F3A0E00692820 /* Models */,
 				B161E1A01E6F26CB00692820 /* Info.plist */,
 			);
 			path = JLTestTests;
@@ -150,6 +159,7 @@
 		B161E1AA1E6F26E500692820 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				B161E1D11E6F37B800692820 /* Routers */,
 				B161E1BB1E6F2D3200692820 /* ApiService.swift */,
 			);
 			name = Services;
@@ -185,6 +195,7 @@
 				B161E1CA1E6F31A100692820 /* GoogleService-Info.plist */,
 				B161E1901E6F26CB00692820 /* Assets.xcassets */,
 				B161E1951E6F26CB00692820 /* Info.plist */,
+				B161E1D41E6F395300692820 /* Config.swift */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -192,6 +203,7 @@
 		B161E1AF1E6F270E00692820 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B161E1CC1E6F328000692820 /* ProductGrid.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -211,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				B161E1B91E6F2C2200692820 /* Coordinator.swift */,
+				B161E1CF1E6F32A900692820 /* JsonObject.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -222,6 +235,23 @@
 				B161E1C71E6F2ED800692820 /* NavigationBar.swift */,
 			);
 			name = components;
+			sourceTree = "<group>";
+		};
+		B161E1D11E6F37B800692820 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				B161E1D21E6F37D400692820 /* ProductGridRouter.swift */,
+			);
+			name = Routers;
+			sourceTree = "<group>";
+		};
+		B161E1D61E6F3A0E00692820 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B161E1D81E6F3A2F00692820 /* ProductGridTests.swift */,
+				B161E1D71E6F3A2F00692820 /* JLTestTests-Bridging-Header.h */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		FCD1060233C2F71F1F5FCDCD /* Pods */ = {
@@ -299,6 +329,7 @@
 					B161E1991E6F26CB00692820 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 5R59WRDGLW;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B161E1851E6F26CB00692820;
 					};
@@ -470,15 +501,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B161E1D01E6F32A900692820 /* JsonObject.swift in Sources */,
 				B161E1BA1E6F2C2200692820 /* Coordinator.swift in Sources */,
 				B161E1C21E6F2E3B00692820 /* Resource.swift in Sources */,
+				B161E1D51E6F395300692820 /* Config.swift in Sources */,
 				B161E1BC1E6F2D3200692820 /* ApiService.swift in Sources */,
 				B161E1B51E6F29A200692820 /* ProductGridViewController.swift in Sources */,
 				B161E1C61E6F2EB600692820 /* NavigationController.swift in Sources */,
+				B161E1CD1E6F328000692820 /* ProductGrid.swift in Sources */,
 				B161E1C81E6F2ED800692820 /* NavigationBar.swift in Sources */,
 				B161E1B71E6F2BC900692820 /* MainCoordinator.swift in Sources */,
 				B161E1C01E6F2DFF00692820 /* Result.swift in Sources */,
 				B161E18A1E6F26CB00692820 /* AppDelegate.swift in Sources */,
+				B161E1D31E6F37D400692820 /* ProductGridRouter.swift in Sources */,
 				B161E1BE1E6F2DE100692820 /* ApiError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,7 +522,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B161E19F1E6F26CB00692820 /* JLTestTests.swift in Sources */,
+				B161E1D91E6F3A2F00692820 /* ProductGridTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,11 +676,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5R59WRDGLW;
 				INFOPLIST_FILE = JLTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.filtercode.JLTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JLTestTests/JLTestTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLTest.app/JLTest";
 			};
@@ -657,11 +695,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5R59WRDGLW;
 				INFOPLIST_FILE = JLTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.filtercode.JLTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JLTestTests/JLTestTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLTest.app/JLTest";
 			};

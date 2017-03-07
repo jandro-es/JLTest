@@ -43,6 +43,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
   
   private func startInternalServices() {
-    apiService = ApiService(host: "https://api.tfl.gov.uk")
+    apiService = ApiService(host: Config.apiHost)
   }
 }
