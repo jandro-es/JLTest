@@ -14,6 +14,15 @@
 		B161E19F1E6F26CB00692820 /* JLTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E19E1E6F26CB00692820 /* JLTestTests.swift */; };
 		B161E1B31E6F296400692820 /* ProductsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B161E1B21E6F296400692820 /* ProductsStoryboard.storyboard */; };
 		B161E1B51E6F29A200692820 /* ProductGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1B41E6F29A200692820 /* ProductGridViewController.swift */; };
+		B161E1B71E6F2BC900692820 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1B61E6F2BC900692820 /* MainCoordinator.swift */; };
+		B161E1BA1E6F2C2200692820 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1B91E6F2C2200692820 /* Coordinator.swift */; };
+		B161E1BC1E6F2D3200692820 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1BB1E6F2D3200692820 /* ApiService.swift */; };
+		B161E1BE1E6F2DE100692820 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1BD1E6F2DE100692820 /* ApiError.swift */; };
+		B161E1C01E6F2DFF00692820 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1BF1E6F2DFF00692820 /* Result.swift */; };
+		B161E1C21E6F2E3B00692820 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1C11E6F2E3B00692820 /* Resource.swift */; };
+		B161E1C61E6F2EB600692820 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1C51E6F2EB600692820 /* NavigationController.swift */; };
+		B161E1C81E6F2ED800692820 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1C71E6F2ED800692820 /* NavigationBar.swift */; };
+		B161E1CB1E6F31A100692820 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B161E1CA1E6F31A100692820 /* GoogleService-Info.plist */; };
 		BF6C5C5F7B2E98B941ACD100 /* Pods_JLTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53A90FA43A548EE6D974C0B /* Pods_JLTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +51,15 @@
 		B161E1A01E6F26CB00692820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B161E1B21E6F296400692820 /* ProductsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ProductsStoryboard.storyboard; path = Views/ProductsStoryboard.storyboard; sourceTree = "<group>"; };
 		B161E1B41E6F29A200692820 /* ProductGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductGridViewController.swift; path = ViewControlers/ProductGridViewController.swift; sourceTree = "<group>"; };
+		B161E1B61E6F2BC900692820 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainCoordinator.swift; path = Coordinators/MainCoordinator.swift; sourceTree = "<group>"; };
+		B161E1B91E6F2C2200692820 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = Protocols/Coordinator.swift; sourceTree = "<group>"; };
+		B161E1BB1E6F2D3200692820 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiService.swift; path = Services/ApiService.swift; sourceTree = "<group>"; };
+		B161E1BD1E6F2DE100692820 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiError.swift; path = Extensions/ApiError.swift; sourceTree = "<group>"; };
+		B161E1BF1E6F2DFF00692820 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Extensions/Result.swift; sourceTree = "<group>"; };
+		B161E1C11E6F2E3B00692820 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Extensions/Resource.swift; sourceTree = "<group>"; };
+		B161E1C51E6F2EB600692820 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = Extensions/components/NavigationController.swift; sourceTree = "<group>"; };
+		B161E1C71E6F2ED800692820 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationBar.swift; path = Extensions/components/NavigationBar.swift; sourceTree = "<group>"; };
+		B161E1CA1E6F31A100692820 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Resources/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B572B1F8B31546544CBC8DB5 /* Pods-JLTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLTestTests/Pods-JLTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		C53A90FA43A548EE6D974C0B /* Pods_JLTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -98,6 +116,7 @@
 		B161E1881E6F26CB00692820 /* JLTest */ = {
 			isa = PBXGroup;
 			children = (
+				B161E1B81E6F2C0300692820 /* Protocols */,
 				B161E1B01E6F271F00692820 /* Extensions */,
 				B161E1AF1E6F270E00692820 /* Models */,
 				B161E1AE1E6F270800692820 /* Resources */,
@@ -123,6 +142,7 @@
 		B161E1A91E6F26DC00692820 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				B161E1B61E6F2BC900692820 /* MainCoordinator.swift */,
 			);
 			name = Coordinators;
 			sourceTree = "<group>";
@@ -130,6 +150,7 @@
 		B161E1AA1E6F26E500692820 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				B161E1BB1E6F2D3200692820 /* ApiService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -161,6 +182,7 @@
 		B161E1AE1E6F270800692820 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B161E1CA1E6F31A100692820 /* GoogleService-Info.plist */,
 				B161E1901E6F26CB00692820 /* Assets.xcassets */,
 				B161E1951E6F26CB00692820 /* Info.plist */,
 			);
@@ -177,8 +199,29 @@
 		B161E1B01E6F271F00692820 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B161E1C41E6F2EA200692820 /* components */,
+				B161E1BD1E6F2DE100692820 /* ApiError.swift */,
+				B161E1BF1E6F2DFF00692820 /* Result.swift */,
+				B161E1C11E6F2E3B00692820 /* Resource.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B161E1B81E6F2C0300692820 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B161E1B91E6F2C2200692820 /* Coordinator.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		B161E1C41E6F2EA200692820 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				B161E1C51E6F2EB600692820 /* NavigationController.swift */,
+				B161E1C71E6F2ED800692820 /* NavigationBar.swift */,
+			);
+			name = components;
 			sourceTree = "<group>";
 		};
 		FCD1060233C2F71F1F5FCDCD /* Pods */ = {
@@ -206,6 +249,7 @@
 				D453BFD8451F0A825E4F0D47 /* [CP] Embed Pods Frameworks */,
 				4ED724B3CEF9A034E8066821 /* [CP] Copy Pods Resources */,
 				B161E1B11E6F282B00692820 /* Swiftlint */,
+				B161E1C91E6F309B00692820 /* Fabric */,
 			);
 			buildRules = (
 			);
@@ -285,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B161E1941E6F26CB00692820 /* LaunchScreen.storyboard in Resources */,
+				B161E1CB1E6F31A100692820 /* GoogleService-Info.plist in Resources */,
 				B161E1911E6F26CB00692820 /* Assets.xcassets in Resources */,
 				B161E1B31E6F296400692820 /* ProductsStoryboard.storyboard in Resources */,
 			);
@@ -343,6 +388,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint";
+		};
+		B161E1C91E6F309B00692820 /* Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Fabric;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 37831d3c74334be96c2813f48157971fbb35250e ae3a0bc2b9da6d67420af431c5c963219209df50474bb439227e7f5ff44728ee";
 		};
 		CAB26A1787CEE0AEFE9E4B3C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -411,8 +470,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B161E1BA1E6F2C2200692820 /* Coordinator.swift in Sources */,
+				B161E1C21E6F2E3B00692820 /* Resource.swift in Sources */,
+				B161E1BC1E6F2D3200692820 /* ApiService.swift in Sources */,
 				B161E1B51E6F29A200692820 /* ProductGridViewController.swift in Sources */,
+				B161E1C61E6F2EB600692820 /* NavigationController.swift in Sources */,
+				B161E1C81E6F2ED800692820 /* NavigationBar.swift in Sources */,
+				B161E1B71E6F2BC900692820 /* MainCoordinator.swift in Sources */,
+				B161E1C01E6F2DFF00692820 /* Result.swift in Sources */,
 				B161E18A1E6F26CB00692820 /* AppDelegate.swift in Sources */,
+				B161E1BE1E6F2DE100692820 /* ApiError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +611,7 @@
 			baseConfigurationReference = 9716156A6C0A45D24E010D28 /* Pods-JLTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 5R59WRDGLW;
 				INFOPLIST_FILE = JLTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
