@@ -1,7 +1,101 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BDA-B6-fXb">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Lorem ipsum-->
+        <scene sceneID="4tg-fR-Ju4">
+            <objects>
+                <viewController storyboardIdentifier="ProductGridViewController" id="BDA-B6-fXb" customClass="ProductGridViewController" customModule="JLTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gej-ir-uUa"/>
+                        <viewControllerLayoutGuide type="bottom" id="6sn-cM-ly8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dcf-dm-i0p">
+                        <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="2kk-kK-UFx">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="704"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Q55-Yz-pJ7">
+                                    <size key="itemSize" width="256" height="336"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductGridCollectionViewCell" id="OQ1-Ei-NLk" customClass="ProductGridCollectionViewCell" customModule="JLTest" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="256" height="336"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="256" height="336"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wbb-FM-hCI">
+                                                    <rect key="frame" x="20" y="20" width="216" height="220"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="216" id="2ph-Zw-XIN"/>
+                                                        <constraint firstAttribute="height" constant="220" id="dQ9-zF-Dub"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product description &amp; price" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sw8-sC-UsL">
+                                                    <rect key="frame" x="20" y="248" width="216" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="Sw8-sC-UsL" firstAttribute="top" secondItem="Wbb-FM-hCI" secondAttribute="bottom" constant="8" id="2Iu-ur-J7G"/>
+                                            <constraint firstAttribute="trailing" secondItem="Sw8-sC-UsL" secondAttribute="trailing" constant="20" id="2Zk-Pg-g5a"/>
+                                            <constraint firstAttribute="trailing" secondItem="Wbb-FM-hCI" secondAttribute="trailing" constant="20" id="3Rr-AK-oZQ"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Sw8-sC-UsL" secondAttribute="bottom" constant="8" id="FPf-WZ-K6C"/>
+                                            <constraint firstItem="Sw8-sC-UsL" firstAttribute="leading" secondItem="OQ1-Ei-NLk" secondAttribute="leading" constant="20" id="VkL-VY-3kG"/>
+                                            <constraint firstItem="Wbb-FM-hCI" firstAttribute="leading" secondItem="OQ1-Ei-NLk" secondAttribute="leading" constant="20" id="nwy-c0-E6m"/>
+                                            <constraint firstItem="Wbb-FM-hCI" firstAttribute="top" secondItem="OQ1-Ei-NLk" secondAttribute="top" constant="20" id="wIE-8A-FAu"/>
+                                        </constraints>
+                                        <size key="customSize" width="256" height="336"/>
+                                        <connections>
+                                            <outlet property="productImage" destination="Wbb-FM-hCI" id="SbG-0Q-icO"/>
+                                            <outlet property="productLabel" destination="Sw8-sC-UsL" id="JUW-0s-Bgl"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="28A-fS-2nX">
+                                <rect key="frame" x="493.5" y="333.5" width="37" height="37"/>
+                                <color key="color" red="0.94999999999999996" green="0.84999999999999998" blue="0.53000000000000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2kk-kK-UFx" firstAttribute="leading" secondItem="dcf-dm-i0p" secondAttribute="leading" id="8bj-dO-jQT"/>
+                            <constraint firstItem="28A-fS-2nX" firstAttribute="centerY" secondItem="dcf-dm-i0p" secondAttribute="centerY" id="C4M-Qv-dAp"/>
+                            <constraint firstItem="28A-fS-2nX" firstAttribute="centerX" secondItem="dcf-dm-i0p" secondAttribute="centerX" id="HV0-ZQ-xtw"/>
+                            <constraint firstItem="2kk-kK-UFx" firstAttribute="top" secondItem="Gej-ir-uUa" secondAttribute="bottom" id="RaW-Rn-YSg"/>
+                            <constraint firstAttribute="trailing" secondItem="2kk-kK-UFx" secondAttribute="trailing" id="UF9-dW-gO9"/>
+                            <constraint firstItem="6sn-cM-ly8" firstAttribute="top" secondItem="2kk-kK-UFx" secondAttribute="bottom" id="shg-IK-Dnz"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" title="Lorem ipsum" id="Oz2-BG-LGH"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="loadingIndicator" destination="28A-fS-2nX" id="IYk-h3-Bnm"/>
+                        <outlet property="productGridCollectionView" destination="2kk-kK-UFx" id="iXc-aQ-5IE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1gG-Fc-Hay" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="851.953125" y="142.1875"/>
+        </scene>
+    </scenes>
 </document>
