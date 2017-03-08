@@ -11,8 +11,8 @@ import Foundation
 /// Class to handle all configuration values
 final class Config {
   
-  fileprivate static let apiHostKey = "apiKey"
-  fileprivate static let apiKeyKey = "apiHost"
+  fileprivate static let apiHostKey = "apiHost"
+  fileprivate static let apiKeyKey = "apiKey"
   
   static var apiHost: String {
     if let apiHost = Bundle.main.infoDictionary?[apiHostKey] as? String {

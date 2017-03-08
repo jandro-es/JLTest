@@ -21,7 +21,6 @@ struct ProductGrid: JsonObject {
     static let price = "price"
     static let priceNow = "now"
     static let image = "image"
-    static let rootKey = "products"
   }
   
   init?(json: Json?) {
@@ -37,7 +36,7 @@ struct ProductGrid: JsonObject {
     self.id = id
     self.title = title
     self.price = price
-    self.image = image
+    self.image = "https:\(image)"
   }
 }
 
@@ -48,37 +47,6 @@ extension ProductGrid: CustomStringConvertible, CustomDebugStringConvertible {
   
   var debugDescription: String {
     return "ProductGrid:\nid: \(id)\ntitle: \(title)\nprice: \(price)\nimage: \(image)\n\n"
-  }
-}
-
-extension ProductGrid {
-  
-  /// Resource to fetch the data of a collection of ProductGrid
-  ///
-  /// - Parameters:
-  ///   - host: The host to use
-  ///   - appKey: The AppKey
-  ///   - transportType: The transport type for the resource
-  /// - Returns: The resource for the line collection
-  static func all(host: String, appKey: String) -> Resource<[ProductGrid]> {
-    return Resource<[ProductGrid]>(urlRequest: try! ProductGridRouter.all(host, appKey).asURLRequest(), parseJson: parseJson)
-  }
-  
-  /// Maps Data to a collection of ProductGrid
-  static let parseJson: (Data) -> [ProductGrid]? = { data in
-    guard
-      let dictionary = try? JSONSerialization.jsonObject(with: data, options: []) as? Json,
-      let jsonCollection = dictionary?[ProductGrid.DataKeys.rootKey] as? JsonCollection
-      else {
-        return nil
-    }
-    var products = [ProductGrid]()
-    for json in jsonCollection {
-      if let product = ProductGrid(json: json) {
-        products.append(product)
-      }
-    }
-    return products
   }
 }
 

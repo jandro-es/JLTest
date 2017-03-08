@@ -28,16 +28,17 @@ class ProductGridTests: XCTestCase {
   
   func testAllProductGrid() {
     asyncExpectation = expectation(description: "Get all product grid expectation")
-    apiService.load(ProductGrid.all(host: apiService.host, appKey: ProductGridTests.key)) { (result) in
+    apiService.load(ProductGridCollection.all(host: apiService.host, appKey: ProductGridTests.key)) { (result) in
       if let error = result.error {
         XCTFail("product grid all error: \(error)")
       } else {
-        guard let products = result.value else {
+        guard let productsCollection = result.value else {
           XCTFail("No products")
           return
         }
-        debugPrint(products)
-        XCTAssert(products.count == 20)
+        debugPrint(productsCollection)
+        XCTAssert(productsCollection.products.count == 20)
+        XCTAssert(productsCollection.gridInfo.results != 0)
         self.asyncExpectation?.fulfill()
       }
     }

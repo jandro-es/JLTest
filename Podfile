@@ -8,7 +8,7 @@ target 'JLTest' do
   pod 'Crashlytics'
   pod 'Alamofire', '~> 4.0'
   pod 'SwiftLint'
-  pod 'SnapKit', '~> 3.2.0'
+  pod 'AlamofireImage', '~> 3.1'
 
   target 'JLTestTests' do
     inherit! :search_paths
@@ -17,7 +17,7 @@ target 'JLTest' do
     pod 'Crashlytics'
     pod 'Alamofire', '~> 4.0'
     pod 'SwiftLint'
-    pod 'SnapKit', '~> 3.2.0'
+    pod 'AlamofireImage', '~> 3.1'
   end
 
   post_install do |installer|

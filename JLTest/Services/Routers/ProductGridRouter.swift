@@ -9,8 +9,6 @@
 import Foundation
 import Alamofire
 
-//https://api.johnlewis.com/v1/products/search?q=dishwasher&key=Wu1Xqn3vNrd1p7hqkvB6hEu0G9OrsYGb&pageSize=20
-
 enum ProductGridRouter {
   
   case all(String, String)

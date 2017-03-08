@@ -21,7 +21,14 @@ final class NavigationBar: UINavigationBar {
     commonInit()
   }
   
+  override func sizeThatFits(_ size: CGSize) -> CGSize {
+    return CGSize(width: bounds.width, height: 75)
+  }
+  
   private func commonInit() {
-
+    barTintColor = UIColor.jlNavigationBar
+    tintColor = .white
+    titleTextAttributes = ([NSFontAttributeName: UIFont.latoMedium(of: UIFont.FontSize.title), NSForegroundColorAttributeName: UIColor.jlTextGray])
+    setTitleVerticalPositionAdjustment(-15.0, for: UIBarMetrics.default)
   }
 }

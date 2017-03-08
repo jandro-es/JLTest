@@ -31,6 +31,8 @@ final class MainCoordinator: RootViewControllerCoordinator {
   }
   
   fileprivate func presentProductsCoordinator() {
-
+    let productsCoordinator = ProductsCoordinator(parameters: RootCoordinatorParameterBag(apiService, window!))
+    rootViewControllerCoordinator = productsCoordinator
+    productsCoordinator.start()
   }
 }

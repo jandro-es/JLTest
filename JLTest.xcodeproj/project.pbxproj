@@ -27,6 +27,31 @@
 		B161E1D31E6F37D400692820 /* ProductGridRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1D21E6F37D400692820 /* ProductGridRouter.swift */; };
 		B161E1D51E6F395300692820 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1D41E6F395300692820 /* Config.swift */; };
 		B161E1D91E6F3A2F00692820 /* ProductGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1D81E6F3A2F00692820 /* ProductGridTests.swift */; };
+		B161E1DB1E6F3FC500692820 /* ProductsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1DA1E6F3FC500692820 /* ProductsCoordinator.swift */; };
+		B161E1DD1E701E6D00692820 /* ProductGridModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1DC1E701E6D00692820 /* ProductGridModelViewController.swift */; };
+		B161E1E01E702A2900692820 /* ProductGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E1DF1E702A2900692820 /* ProductGridCollectionViewCell.swift */; };
+		B161E1F41E702DEB00692820 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1E21E702DEB00692820 /* Lato-Black.ttf */; };
+		B161E1F51E702DEB00692820 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1E31E702DEB00692820 /* Lato-BlackItalic.ttf */; };
+		B161E1F61E702DEB00692820 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1E41E702DEB00692820 /* Lato-Bold.ttf */; };
+		B161E1F71E702DEB00692820 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1E51E702DEB00692820 /* Lato-BoldItalic.ttf */; };
+		B161E1F81E702DEB00692820 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1E61E702DEB00692820 /* Lato-Hairline.ttf */; };
+		B161E1F91E702DEB00692820 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1E71E702DEB00692820 /* Lato-HairlineItalic.ttf */; };
+		B161E1FA1E702DEB00692820 /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1E81E702DEB00692820 /* Lato-Heavy.ttf */; };
+		B161E1FB1E702DEB00692820 /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1E91E702DEB00692820 /* Lato-HeavyItalic.ttf */; };
+		B161E1FC1E702DEB00692820 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1EA1E702DEB00692820 /* Lato-Italic.ttf */; };
+		B161E1FD1E702DEB00692820 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1EB1E702DEB00692820 /* Lato-Light.ttf */; };
+		B161E1FE1E702DEB00692820 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1EC1E702DEB00692820 /* Lato-LightItalic.ttf */; };
+		B161E1FF1E702DEB00692820 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1ED1E702DEB00692820 /* Lato-Medium.ttf */; };
+		B161E2001E702DEB00692820 /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1EE1E702DEB00692820 /* Lato-MediumItalic.ttf */; };
+		B161E2011E702DEB00692820 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1EF1E702DEB00692820 /* Lato-Regular.ttf */; };
+		B161E2021E702DEB00692820 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1F01E702DEB00692820 /* Lato-Semibold.ttf */; };
+		B161E2031E702DEB00692820 /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1F11E702DEB00692820 /* Lato-SemiboldItalic.ttf */; };
+		B161E2041E702DEB00692820 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1F21E702DEB00692820 /* Lato-Thin.ttf */; };
+		B161E2051E702DEB00692820 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B161E1F31E702DEB00692820 /* Lato-ThinItalic.ttf */; };
+		B161E2071E702E1300692820 /* UIFont+Lato.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E2061E702E1300692820 /* UIFont+Lato.swift */; };
+		B161E2091E702E4D00692820 /* UIColor+JLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E2081E702E4D00692820 /* UIColor+JLTest.swift */; };
+		B161E20B1E704C4A00692820 /* ProductGridInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E20A1E704C4A00692820 /* ProductGridInfo.swift */; };
+		B161E20D1E704E4D00692820 /* ProductGridCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161E20C1E704E4D00692820 /* ProductGridCollection.swift */; };
 		BF6C5C5F7B2E98B941ACD100 /* Pods_JLTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53A90FA43A548EE6D974C0B /* Pods_JLTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +94,31 @@
 		B161E1D41E6F395300692820 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Resources/Config.swift; sourceTree = "<group>"; };
 		B161E1D71E6F3A2F00692820 /* JLTestTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JLTestTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		B161E1D81E6F3A2F00692820 /* ProductGridTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductGridTests.swift; path = Models/ProductGridTests.swift; sourceTree = "<group>"; };
+		B161E1DA1E6F3FC500692820 /* ProductsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductsCoordinator.swift; path = Coordinators/ProductsCoordinator.swift; sourceTree = "<group>"; };
+		B161E1DC1E701E6D00692820 /* ProductGridModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductGridModelViewController.swift; path = ModelViewControlers/ProductGridModelViewController.swift; sourceTree = "<group>"; };
+		B161E1DF1E702A2900692820 /* ProductGridCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductGridCollectionViewCell.swift; path = Views/Cells/ProductGridCollectionViewCell.swift; sourceTree = "<group>"; };
+		B161E1E21E702DEB00692820 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Black.ttf"; path = "Resources/Fonts/Lato-Black.ttf"; sourceTree = "<group>"; };
+		B161E1E31E702DEB00692820 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-BlackItalic.ttf"; path = "Resources/Fonts/Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B161E1E41E702DEB00692820 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "Resources/Fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		B161E1E51E702DEB00692820 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-BoldItalic.ttf"; path = "Resources/Fonts/Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B161E1E61E702DEB00692820 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Hairline.ttf"; path = "Resources/Fonts/Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		B161E1E71E702DEB00692820 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-HairlineItalic.ttf"; path = "Resources/Fonts/Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		B161E1E81E702DEB00692820 /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Heavy.ttf"; path = "Resources/Fonts/Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		B161E1E91E702DEB00692820 /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-HeavyItalic.ttf"; path = "Resources/Fonts/Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		B161E1EA1E702DEB00692820 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Italic.ttf"; path = "Resources/Fonts/Lato-Italic.ttf"; sourceTree = "<group>"; };
+		B161E1EB1E702DEB00692820 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "Resources/Fonts/Lato-Light.ttf"; sourceTree = "<group>"; };
+		B161E1EC1E702DEB00692820 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-LightItalic.ttf"; path = "Resources/Fonts/Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		B161E1ED1E702DEB00692820 /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Medium.ttf"; path = "Resources/Fonts/Lato-Medium.ttf"; sourceTree = "<group>"; };
+		B161E1EE1E702DEB00692820 /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-MediumItalic.ttf"; path = "Resources/Fonts/Lato-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B161E1EF1E702DEB00692820 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "Resources/Fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		B161E1F01E702DEB00692820 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Semibold.ttf"; path = "Resources/Fonts/Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		B161E1F11E702DEB00692820 /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-SemiboldItalic.ttf"; path = "Resources/Fonts/Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		B161E1F21E702DEB00692820 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Thin.ttf"; path = "Resources/Fonts/Lato-Thin.ttf"; sourceTree = "<group>"; };
+		B161E1F31E702DEB00692820 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-ThinItalic.ttf"; path = "Resources/Fonts/Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B161E2061E702E1300692820 /* UIFont+Lato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+Lato.swift"; path = "Extensions/UIFont+Lato.swift"; sourceTree = "<group>"; };
+		B161E2081E702E4D00692820 /* UIColor+JLTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+JLTest.swift"; path = "Extensions/UIColor+JLTest.swift"; sourceTree = "<group>"; };
+		B161E20A1E704C4A00692820 /* ProductGridInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductGridInfo.swift; path = Models/ProductGridInfo.swift; sourceTree = "<group>"; };
+		B161E20C1E704E4D00692820 /* ProductGridCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductGridCollection.swift; path = Models/ProductGridCollection.swift; sourceTree = "<group>"; };
 		B572B1F8B31546544CBC8DB5 /* Pods-JLTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLTestTests/Pods-JLTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		C53A90FA43A548EE6D974C0B /* Pods_JLTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -152,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				B161E1B61E6F2BC900692820 /* MainCoordinator.swift */,
+				B161E1DA1E6F3FC500692820 /* ProductsCoordinator.swift */,
 			);
 			name = Coordinators;
 			sourceTree = "<group>";
@@ -168,6 +219,7 @@
 		B161E1AB1E6F26EF00692820 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B161E1DE1E70216600692820 /* Cells */,
 				B161E1921E6F26CB00692820 /* LaunchScreen.storyboard */,
 				B161E1B21E6F296400692820 /* ProductsStoryboard.storyboard */,
 			);
@@ -185,6 +237,7 @@
 		B161E1AD1E6F26FF00692820 /* ModelViewControlers */ = {
 			isa = PBXGroup;
 			children = (
+				B161E1DC1E701E6D00692820 /* ProductGridModelViewController.swift */,
 			);
 			name = ModelViewControlers;
 			sourceTree = "<group>";
@@ -192,6 +245,7 @@
 		B161E1AE1E6F270800692820 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B161E1E11E702DDD00692820 /* Fonts */,
 				B161E1CA1E6F31A100692820 /* GoogleService-Info.plist */,
 				B161E1901E6F26CB00692820 /* Assets.xcassets */,
 				B161E1951E6F26CB00692820 /* Info.plist */,
@@ -204,6 +258,8 @@
 			isa = PBXGroup;
 			children = (
 				B161E1CC1E6F328000692820 /* ProductGrid.swift */,
+				B161E20A1E704C4A00692820 /* ProductGridInfo.swift */,
+				B161E20C1E704E4D00692820 /* ProductGridCollection.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -215,6 +271,8 @@
 				B161E1BD1E6F2DE100692820 /* ApiError.swift */,
 				B161E1BF1E6F2DFF00692820 /* Result.swift */,
 				B161E1C11E6F2E3B00692820 /* Resource.swift */,
+				B161E2061E702E1300692820 /* UIFont+Lato.swift */,
+				B161E2081E702E4D00692820 /* UIColor+JLTest.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -252,6 +310,39 @@
 				B161E1D71E6F3A2F00692820 /* JLTestTests-Bridging-Header.h */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		B161E1DE1E70216600692820 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B161E1DF1E702A2900692820 /* ProductGridCollectionViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		B161E1E11E702DDD00692820 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B161E1E21E702DEB00692820 /* Lato-Black.ttf */,
+				B161E1E31E702DEB00692820 /* Lato-BlackItalic.ttf */,
+				B161E1E41E702DEB00692820 /* Lato-Bold.ttf */,
+				B161E1E51E702DEB00692820 /* Lato-BoldItalic.ttf */,
+				B161E1E61E702DEB00692820 /* Lato-Hairline.ttf */,
+				B161E1E71E702DEB00692820 /* Lato-HairlineItalic.ttf */,
+				B161E1E81E702DEB00692820 /* Lato-Heavy.ttf */,
+				B161E1E91E702DEB00692820 /* Lato-HeavyItalic.ttf */,
+				B161E1EA1E702DEB00692820 /* Lato-Italic.ttf */,
+				B161E1EB1E702DEB00692820 /* Lato-Light.ttf */,
+				B161E1EC1E702DEB00692820 /* Lato-LightItalic.ttf */,
+				B161E1ED1E702DEB00692820 /* Lato-Medium.ttf */,
+				B161E1EE1E702DEB00692820 /* Lato-MediumItalic.ttf */,
+				B161E1EF1E702DEB00692820 /* Lato-Regular.ttf */,
+				B161E1F01E702DEB00692820 /* Lato-Semibold.ttf */,
+				B161E1F11E702DEB00692820 /* Lato-SemiboldItalic.ttf */,
+				B161E1F21E702DEB00692820 /* Lato-Thin.ttf */,
+				B161E1F31E702DEB00692820 /* Lato-ThinItalic.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		FCD1060233C2F71F1F5FCDCD /* Pods */ = {
@@ -359,10 +450,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B161E1F61E702DEB00692820 /* Lato-Bold.ttf in Resources */,
+				B161E1FE1E702DEB00692820 /* Lato-LightItalic.ttf in Resources */,
 				B161E1941E6F26CB00692820 /* LaunchScreen.storyboard in Resources */,
+				B161E1FC1E702DEB00692820 /* Lato-Italic.ttf in Resources */,
+				B161E1F91E702DEB00692820 /* Lato-HairlineItalic.ttf in Resources */,
+				B161E2031E702DEB00692820 /* Lato-SemiboldItalic.ttf in Resources */,
 				B161E1CB1E6F31A100692820 /* GoogleService-Info.plist in Resources */,
+				B161E2051E702DEB00692820 /* Lato-ThinItalic.ttf in Resources */,
+				B161E2001E702DEB00692820 /* Lato-MediumItalic.ttf in Resources */,
+				B161E1FB1E702DEB00692820 /* Lato-HeavyItalic.ttf in Resources */,
+				B161E1F71E702DEB00692820 /* Lato-BoldItalic.ttf in Resources */,
+				B161E1F51E702DEB00692820 /* Lato-BlackItalic.ttf in Resources */,
+				B161E1FF1E702DEB00692820 /* Lato-Medium.ttf in Resources */,
+				B161E1F81E702DEB00692820 /* Lato-Hairline.ttf in Resources */,
 				B161E1911E6F26CB00692820 /* Assets.xcassets in Resources */,
+				B161E2011E702DEB00692820 /* Lato-Regular.ttf in Resources */,
+				B161E1F41E702DEB00692820 /* Lato-Black.ttf in Resources */,
+				B161E2041E702DEB00692820 /* Lato-Thin.ttf in Resources */,
 				B161E1B31E6F296400692820 /* ProductsStoryboard.storyboard in Resources */,
+				B161E1FA1E702DEB00692820 /* Lato-Heavy.ttf in Resources */,
+				B161E1FD1E702DEB00692820 /* Lato-Light.ttf in Resources */,
+				B161E2021E702DEB00692820 /* Lato-Semibold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,9 +613,14 @@
 				B161E1D01E6F32A900692820 /* JsonObject.swift in Sources */,
 				B161E1BA1E6F2C2200692820 /* Coordinator.swift in Sources */,
 				B161E1C21E6F2E3B00692820 /* Resource.swift in Sources */,
+				B161E20B1E704C4A00692820 /* ProductGridInfo.swift in Sources */,
 				B161E1D51E6F395300692820 /* Config.swift in Sources */,
 				B161E1BC1E6F2D3200692820 /* ApiService.swift in Sources */,
+				B161E2091E702E4D00692820 /* UIColor+JLTest.swift in Sources */,
 				B161E1B51E6F29A200692820 /* ProductGridViewController.swift in Sources */,
+				B161E2071E702E1300692820 /* UIFont+Lato.swift in Sources */,
+				B161E1DD1E701E6D00692820 /* ProductGridModelViewController.swift in Sources */,
+				B161E20D1E704E4D00692820 /* ProductGridCollection.swift in Sources */,
 				B161E1C61E6F2EB600692820 /* NavigationController.swift in Sources */,
 				B161E1CD1E6F328000692820 /* ProductGrid.swift in Sources */,
 				B161E1C81E6F2ED800692820 /* NavigationBar.swift in Sources */,
@@ -514,7 +628,9 @@
 				B161E1C01E6F2DFF00692820 /* Result.swift in Sources */,
 				B161E18A1E6F26CB00692820 /* AppDelegate.swift in Sources */,
 				B161E1D31E6F37D400692820 /* ProductGridRouter.swift in Sources */,
+				B161E1E01E702A2900692820 /* ProductGridCollectionViewCell.swift in Sources */,
 				B161E1BE1E6F2DE100692820 /* ApiError.swift in Sources */,
+				B161E1DB1E6F3FC500692820 /* ProductsCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
